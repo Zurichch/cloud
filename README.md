@@ -13,4 +13,4 @@ UIT2702 lab programs.
   - Task4_TokenPassing — Token ring algorithm
 - **Exercise7_LogicalClocks** — Lamport's logical clock and vector clocks
 
-All programs are under `Cloud and Distributed Computing Lab/`.
+All programs are under `lab/`.
