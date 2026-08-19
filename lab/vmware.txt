@@ -1,0 +1,25 @@
+1. Open VMware Workstation Pro 17:
+○ Start VMware Workstation and open the existing Ubuntu 24.04.1 LTS VM
+2. Clone Virtual Instances (VMs):
+○ Since we already have one Ubuntu VM, we can create additional VMs by cloning.
+○ Right-click on the existing Ubuntu VM and select Manage > Clone.
+○ In the cloning wizard, select Create a full clone to make identical copies of VM.
+○ Clone as many VMs as needed (e.g., two or three additional VMs).
+3. Power On the Cloned VMs:
+○ Power on the newly cloned VMs by right-clicking on each & select Power On.
+
+4. Install Apache Web Server on Each VM:
+For each VM, install Apache using the following commands: sudo apt update
+
+sudo apt install apache2 -y
+
+Enable Apache: sudo systemctl enable apache2
+
+Verify Apache is running: sudo systemctl status apache2
+
+
+sudo nano /var/www/html/index.html
+
+
+After customizing html template -> Ctrl O + Enter + Ctrl X
+5. Configure Networking: ifconfig
